@@ -15,5 +15,6 @@ get '/home' do
 end
 
 get '/cat' do
+  @variable = ["Amigo", "Oscar", "Viking"].sample
   erb(:index)
 end
